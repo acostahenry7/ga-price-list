@@ -1,7 +1,7 @@
 module.exports = {
   endpoint: {
-    auth: "http://localhost:3001/api/auth",
-    main: "http://localhost:3002/api",
+    auth: "http://unixapi.grupoavant.com.do:6004/api/auth",
+    main: "http://unixapi.grupoavant.com.do:6003/api",
     ip: "https://api.ipify.org?format=json",
   },
   app: {
