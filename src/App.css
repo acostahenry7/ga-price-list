@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App {
-  text-align: center;
 }
 
 .App-logo {
@@ -26,6 +31,14 @@
 
 .App-link {
   color: #61dafb;
+}
+
+main {
+  min-height: calc(100vh - 87px);
+}
+
+.dt-container {
+  padding-bottom: 100px;
 }
 
 @keyframes App-logo-spin {

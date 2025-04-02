@@ -1,0 +1,12 @@
+.loading-modal .modal-content {
+  background-color: transparent;
+  border: none;
+}
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.loading-modal svg {
+  width: 100px;
+}

@@ -1,0 +1,35 @@
+.login-form-container {
+  text-align: left;
+  /* background-color: #dee2e6; */
+}
+
+.login-form {
+  min-height: 100vh;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  justify-content: center;
+}
+
+.form {
+  padding: 20px;
+  border-radius: 10px;
+  /* border-bottom: 3px solid rgb(167, 51, 51); */
+  background-color: white;
+}
+
+.login-form .form-group {
+  padding: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+}
+
+.login-form input,
+select {
+}
